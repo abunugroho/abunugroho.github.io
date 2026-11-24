@@ -26,6 +26,10 @@ h2{font-size:1.15rem;color:var(--accent);margin:34px 0 12px;padding-bottom:6px;b
 .chips span{background:var(--tint);color:var(--accent);padding:3px 10px;border-radius:999px;font-size:.8rem}
 .note{color:var(--muted);font-size:.85rem;margin:8px 0 0}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:12px 0}
+.stats div{background:var(--tint);border-radius:10px;padding:8px 12px}
+.stats b{display:block;color:var(--accent);font-size:1.1rem}
+.stats span{font-size:.78rem;color:var(--muted)}
 footer{margin-top:36px;color:var(--muted);font-size:.85rem;text-align:center}
 </style></head><body><main>
 <header class="hero">
@@ -39,24 +43,31 @@ footer{margin-top:36px;color:var(--muted);font-size:.85rem;text-align:center}
 <p>Chemical Engineering graduate of Universitas Lampung (2026) with hands-on experience in process design, experimental research, and production process analysis. I’m looking for opportunities in production, process optimization and design, process control, quality management, utilities and waste treatment, and HSE. I believe every process can be optimized.</p>
 
 <h2 id="projects">Selected Projects</h2>
-<article class="card"><h3>Preliminary Design of a Dimethyl Carbonate Plant (44,000 Tons/Year)</h3>
-<p class="meta">Final Project · Universitas Lampung · 2026</p>
-<p>Plant design for manufacturing dimethyl carbonate from methanol and carbon dioxide at a capacity of 44,000 tons per year.</p>
-<ul><li>Special Task: design of Cooler CO-301.</li><li>Applied process design principles, mass and energy balance, and process flow documentation (PFD/P&amp;ID).</li></ul>
-<div class="chips"><span>Process Design</span><span>Mass &amp; Energy Balance</span><span>Heat Transfer</span><span>PFD/P&amp;ID</span></div></article>
+<article class="card"><h3>Pre-Design of a Dimethyl Carbonate Plant (44,000 Tons/Year)</h3>
+<p class="meta">Final Project · Universitas Lampung · 2026 · Special Task: Design of Cooler CO-301</p>
+<p>Plant pre-design for dimethyl carbonate (DMC) from methanol and carbon dioxide over a CeO₂ catalyst in a fixed-bed reactor. The direct synthesis route was selected over transesterification after comparing conversion, by-products, and economics. Planned location: Bontang, East Kalimantan, with 330 operating days per year.</p>
+<div class="stats"><div><b>99.89%</b><span>DMC purity (wt)</span></div><div><b>~98%</b><span>methanol conversion</span></div><div><b>2.21 years</b><span>pay-out time (after tax)</span></div><div><b>29.88%</b><span>ROI (before tax)</span></div></div>
+<ul><li>Economic evaluation: BEP 41.13%, SDP 21.85%, DCF 19.40%, total capital investment about Rp 711 billion.</li>
+<li>Cooler CO-301: counter-current shell-and-tube exchanger cooling DMC from 90 °C to 35 °C with cooling water; 274.82 ft², 140 tubes of 10 ft, stainless steel SA-240 Type 304. Fouling factor of 0.003 meets the required minimum of 0.002.</li></ul>
+<div class="chips"><span>Process Design</span><span>Mass &amp; Energy Balance</span><span>Heat Exchanger Design</span><span>Economic Evaluation</span><span>PFD/P&amp;ID</span></div></article>
 
 <article class="card"><h3>Optimization and Kinetics of Sorghum Starch Hydrolysis</h3>
-<p class="meta">Research Essay · Universitas Lampung · Aug 2024 – Feb 2026</p>
-<p>“Optimization and Kinetics of the Sorghum Starch Hydrolysis Process Using Immobilized Glucoamylase Enzyme on MCF Silica Derived from Palm Oil Boiler Ash (POBA) Based on Response Surface Methodology (Central Composite Design)”.</p>
-<ul><li>Turned agricultural waste (palm oil boiler ash) into an enzyme support material.</li><li>Applied Response Surface Methodology (Central Composite Design) to determine optimum process conditions.</li><li>Analyzed the reaction kinetics of the hydrolysis process using experimental data.</li></ul>
-<div class="chips"><span>Design of Experiments (RSM)</span><span>Enzyme Immobilization</span><span>Reaction Kinetics</span><span>Data Analysis</span></div></article>
+<p class="meta">Research · Bioprocess and Enzymatic Laboratory, Universitas Lampung · 2024–2026</p>
+<p>Hydrolysis of sorghum starch using glucoamylase immobilized on MCF silica made from Palm Oil Boiler Ash (POBA), optimized with Response Surface Methodology (Central Composite Design) on three factors: temperature, buffer pH, and enzyme amount.</p>
+<div class="stats"><div><b>43.83%</b><span>dextrose at optimum</span></div><div><b>R² 0.9955</b><span>quadratic model</span></div><div><b>84.95%</b><span>immobilization efficiency</span></div></div>
+<ul><li>Optimum conditions: 70 °C, pH 4.6, 4,500 U enzyme. Temperature and pH were the most significant factors.</li>
+<li>Model validation: five predicted optima were tested experimentally and came within 0.05–1.83 percentage points of the predictions.</li>
+<li>Kinetics (Hanes–Woolf): free enzyme Km 0.25 mg/mL, Vmax 9.65 mg/mL·min; immobilized enzyme Km 0.025 mg/mL, Vmax 0.051 mg/mL·min.</li>
+<li>Specific activity: 17,443.62 U/g (free) versus 1,375.43 U/g (immobilized).</li></ul>
+<div class="chips"><span>Design of Experiments (RSM)</span><span>Enzyme Immobilization</span><span>Reaction Kinetics</span><span>ANOVA</span><span>Design-Expert</span></div></article>
 
-<article class="card"><h3>Performance Evaluation of a Reactor Feed Heater and Catalyst</h3>
+<article class="card"><h3>Performance Evaluation of a Reactor Feed Heater (E-522)</h3>
 <p class="meta">Internship · PT Polychem Indonesia Tbk., EO/EG II Plant · Jan – Feb 2024</p>
-<p>Evaluation of the Second Stage Reactor Feed Heater (E-522) and catalyst performance based on operating and process data.</p>
-<ul><li>Analyzed operational data to assess catalyst efficiency and the effect of operating parameters on reaction conversion.</li><li>Estimated catalyst lifetime under existing operating conditions from performance trends.</li><li>Recorded operating data, process conditions, and laboratory results for production logs and compliance reports.</li></ul>
-<div class="chips"><span>Process Analysis</span><span>Heat Exchanger Evaluation</span><span>Data Analysis</span><span>Production Reporting</span></div>
-<p class="note">Details are summarized to respect company confidentiality.</p></article>
+<p>Special task: evaluating the Second Stage Reactor Feed Heater, a steam-heated shell-and-tube exchanger that heats the glycol feed before the glycol reactor.</p>
+<ul><li>Calculated flow regime, overall heat transfer coefficient, heat transfer area, and heat duty from plant operating data using the Kern method.</li>
+<li>Compared the heat released by the steam with the heat absorbed by the process fluid, and recommended increasing the steam flow rate so the target outlet temperature can be reached.</li></ul>
+<div class="chips"><span>Heat Exchanger Evaluation</span><span>Heat Transfer (Kern)</span><span>Process Data Analysis</span><span>Technical Reporting</span></div>
+<p class="note">Plant figures are not shown, to respect company confidentiality.</p></article>
 
 <h2>Experience Highlights</h2>
 <div class="grid">
